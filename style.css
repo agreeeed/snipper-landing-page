@@ -132,6 +132,9 @@ h2{
 	#ham{
 		display: block;
 	}
+    #bottom-main{
+        flex-direction: column-reverse;
+    }
 	#bm-lt, #bm-rt{
 		width: 100%;
 		padding: 0;
@@ -142,7 +145,7 @@ h2{
 		font-size: 2.5rem;
 	}
 	footer{
-		flex-direction: column;
+		flex-direction: column-reverse;
 		text-align: center;
 	}
 }
